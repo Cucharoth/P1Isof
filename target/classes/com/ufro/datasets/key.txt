@@ -1,0 +1,7 @@
+-------------------BEGIN KEY---------------------
+SQUARE1 | SQUARE2 | SQUARE3
+  1 2 3 |   1 2 3 |   1 2 3
+1 E K S | 1 M F Z | 1 + G O
+2 I U C | 2 L P X | 2 R D J
+3 V W Y | 3 N T B | 3 H A Q
+-------------------END KEY-----------------------
