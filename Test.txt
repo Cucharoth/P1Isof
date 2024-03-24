@@ -1,0 +1,24 @@
+3 1 3 1 2 1 2 
+3 3 3 3 1 1 1
+1 2 2 3 2 1 3
+
+List<List<int[][]>> solutionMatrixPart2 = new ArrayList<>(); // TODO:!
+        for (int lineIndex = 0; lineIndex < solutionMatrix.size(); lineIndex++) {
+            for (int sectionIndex = 0; sectionIndex < solutionMatrix.get(lineIndex)) {
+                int[][] aux = new int[3][section[0].length];
+                for (int i = 0, oldI = 0, oldJ = 0; i < 3; i++) {
+                    for (int j = 0; j < section[0].length; j++, oldI++) {
+                        aux[i][j] = section[oldI][oldJ];
+                        if (oldI == 2) {
+                            oldI = -1;
+                            oldJ++;
+                        }
+                    }
+                }
+                **section = aux;
+            }
+        }
+
+3 3 1 1 3 2 3
+3 2 1 3 3 2 1
+2 1 1 1 2 1 3
